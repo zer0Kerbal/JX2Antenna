@@ -33,8 +33,10 @@
 
 ### Parts
 
-ModuleCargoPart
-[DRAG_CUBES]
+* Add
+  * [ModuleCargoPart]
+  * [DRAG_CUBES]
+  * @thumbs
 
 	PhysicsSignificance = 1
 
