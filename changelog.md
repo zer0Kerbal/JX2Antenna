@@ -77,6 +77,12 @@
   * rename from [jx2_RemoteTech.cfg]
   * add :NEEDS[RemoteTech]
 
+### Config
+
+* Create
+  * [JX2Antenna.cfg] v1.0.0.0
+    * updates tags with localizations
+
 ### Status 2.0.99.0
 
 * Issues
