@@ -23,7 +23,7 @@
 
 ---
 
-## Version 2.0.4.0
+## Version 2.0.4.0-release
 
 * 2018-04-13
 * Released for Kerbal Space Program 1.4.2
@@ -36,7 +36,7 @@
 
 ---
 
-## Version 2.0.3.0
+## Version 2.0.3.0-release
 
 * 2018-04-12
 * Released for Kerbal Space Program 1.4.2
@@ -51,7 +51,7 @@
 
 ---
 
-## Version 2.0.2.0
+## Version 2.0.2.0-release
 
 * 2017-06-25
 * Released for Kerbal Space Program 1.4.2
@@ -65,7 +65,7 @@
 
 ---
 
-## Version 2.0.1.0
+## Version 2.0.1.0-release
 
 * 2017-06-18
 * Released for Kerbal Space Program 1.3.0
@@ -79,7 +79,7 @@
 
 ---
 
-## Version 2.0.0.0
+## Version 2.0.0.0-release
 
 * 2017-06-15
 * Released for Kerbal Space Program 1.3.0
@@ -95,7 +95,7 @@
 
 ---
 
-## Version 1.1.0.0
+## Version 1.1.0.0-release
 
 * 2017-02-09
 * Released for Kerbal Space Program 1.3.0
@@ -108,7 +108,7 @@ Add a patch for [Galileo's Planet Pack](http://forum.kerbalspaceprogram.com/inde
 
 ---
 
-## Version 1.0.0.0
+## Version 1.0.0.0-release
 
 * 2016-12-07
 * Released for Kerbal Space Program 1.2.2
