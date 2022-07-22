@@ -15,7 +15,36 @@
 * 21 Jul 2022
 * Released for Kerbal Space Program 1.12.3
 
+### Asset Updates
+
+* create Assets/ folder
+* convert from mesh to MODEL
+* rename
+  * models to unique names
+  * textures to unique names
+* update
+  * model pointers (.png et al to .dds)
+  * model texture pointers to new names
+* relocate assets to Assets/
+* eliminate
+  * duplicate textures
+  * duplicate models
+* relocate part.cfg to Parts/
+
 ### docs/
+
+* Add
+  * [Attribution.md] v1.0.6.0
+  * [ManualInstallation.md] v1.1.7.0
+  * [404.md] v1.0.3.1
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [Part-Catelog.md] v1.1.4.0
+  * [Why-not.md]
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
 
 ### documentation
 
@@ -24,6 +53,11 @@
 
 ### Localization
 
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
 * closes #10 - English <us-en.cfg>
 * closes #27 - Part Localization
 * updates #9 - Localization - Master
