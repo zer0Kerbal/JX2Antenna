@@ -31,6 +31,13 @@
   * duplicate models
 * relocate part.cfg to Parts/
 
+### Parts
+
+ModuleCargoPart
+[DRAG_CUBES]
+
+	PhysicsSignificance = 1
+
 ### docs/
 
 * Add
