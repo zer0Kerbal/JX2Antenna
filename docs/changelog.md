@@ -112,7 +112,7 @@ CC BY-ND 4.0 by zer0Kerbal
 * 2017-02-09
 * Released for Kerbal Space Program 1.3.0
 
-Add a patch for [Galileo's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/152136-122-galileos-planet-pack-official-release-v11/).
+* Add a patch for [Galileo's Planet Pack](http://forum.kerbalspaceprogram.com/index.php?/topic/152136-122-galileos-planet-pack-official-release-v11/).
 
 * Issues
   * closes #29 - 1.1.0.0-release
