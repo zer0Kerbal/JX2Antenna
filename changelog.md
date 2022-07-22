@@ -62,6 +62,21 @@
 * closes #27 - Part Localization
 * updates #9 - Localization - Master
 
+### Compatibility
+
+* [GalileosPlanetPack.cfg] v1.0.0.0
+  * rename from [jx2_GPP.cfg]
+  * add :NEEDS[GPP]
+* [IndicatorLights.cfg] v1.0.0.0
+  * rename from [jx2_IndicatorLights.cfg]
+  * add :NEEDS[IndicatorLights]
+* [OuterPlanetsMod.cfg] v1.0.0.0
+  * rename from [jx2_OPM.cfg]
+  * add :NEEDS[OPM,!GEP_CommNet,!Komplexity]
+* [RemoteTech.cfg] v1.0.0.0
+  * rename from [jx2_RemoteTech.cfg]
+  * add :NEEDS[RemoteTech]
+
 ### Status 2.0.99.0
 
 * Issues
