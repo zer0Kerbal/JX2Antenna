@@ -10,6 +10,34 @@
 | spacedock  | (https://spacedock.info/mod/1107)                                 |
 | ckan       | JX2Antenna                                                        |
 
+## Version 2.0.99.0-adoption
+
+* 21 Jul 2022
+* Released for Kerbal Space Program 1.12.3
+
+### docs/
+
+### documentation
+
+* [JX2Antenna.version]
+  * remove [KSP_VERSION_MAX]
+
+### Localization
+
+* closes #10 - English <us-en.cfg>
+* closes #27 - Part Localization
+* updates #9 - Localization - Master
+
+### Status 2.0.99.0
+
+* Issues
+  * closes #5 - JX2Antenna (JX2) 2.0.99.0-adoption `<EDITION>`
+  * closes #6 - 2.0.99.0 Verify Legal Mumbo Jumbo
+  * closes #7 - 2.0.99.0 Update Documentation
+  * closes #8 - 2.0.99.0 Update Social Media
+
+---
+
 ## Version 2.0.5.0-release
 
 * 2018-05-10
