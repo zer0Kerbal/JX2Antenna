@@ -10,6 +10,115 @@
 | spacedock  | (https://spacedock.info/mod/1107)                                 |
 | ckan       | JX2Antenna                                                        |
 
+## Version 2.0.99.0-adoption - `<Fine Tuned>` edition
+
+* 21 Jul 2022
+* Released for Kerbal Space Program 1.12.3
+
+### Asset Updates
+
+* create Assets/ folder
+* convert from mesh to MODEL
+* rename
+  * models to unique names
+  * textures to unique names
+* update
+  * model pointers (.png et al to .dds)
+  * model texture pointers to new names
+* relocate assets to Assets/
+* eliminate
+  * duplicate textures
+  * duplicate models
+* relocate part.cfg to Parts/
+
+### Parts
+
+* Add
+  * [DRAG_CUBES]
+  * @thumbs
+  * [PhysicsSignificance] = 1
+
+#### ModuleCargoPart
+
+| JX2Antenna |         |       | π╥     | πr²h       | 1000L = m3 |
+| ---------- | ------- | ----- | ------ | ---------- | ---------- |
+|            | dia (m) | r (m) | h (m)  | volume m^3 | *1000      |
+| ju1MDA     | 1.25    | 0.625 | 2.5900 | 3.17841    | 3178.41    |
+| jw1MDA     | 1.25    | 0.625 | 1.0900 | 1.33763    | 1337.64    |
+| jx2LDA     | 2.5     | 1.25  | 4.1500 | 20.37126   | 20371.27   |
+
+* [ju1MDA.cfg]
+  * Dimensions = x: 1.25, y: 2.59, z: 1.28
+  * [ModuleCargoPart] = 4500
+* [jw1MDA.cfg]
+  * Dimensions = x: 1.24, y: 1.09, z: 1.29
+  * [ModuleCargoPart] = 1400
+* [jx2LDA.cfg]
+  * Dimensions = x: 2.48, y: 4.15, z: 2.48
+  * [ModuleCargoPart] = 22000
+* closes #46 - Update Parts
+
+### docs/
+
+* Add
+  * [Attribution.md] v1.0.6.0
+  * [ManualInstallation.md] v1.1.7.0
+  * [404.md] v1.0.3.1
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [Part-Catelog.md] v1.1.4.0
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
+
+### documentation
+
+* [JX2Antenna.version]
+  * remove [KSP_VERSION_MAX]
+
+### Localization
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* closes #10 - English <us-en.cfg>
+* closes #27 - Part Localization
+* updates #9 - Localization - Master
+
+### Compatibility
+
+* [GalileosPlanetPack.cfg] v1.0.0.0
+  * rename from [jx2_GPP.cfg]
+  * add :NEEDS[GPP]
+* [IndicatorLights.cfg] v1.0.0.0
+  * rename from [jx2_IndicatorLights.cfg]
+  * add :NEEDS[IndicatorLights]
+* [OuterPlanetsMod.cfg] v1.0.0.0
+  * rename from [jx2_OPM.cfg]
+  * add :NEEDS[OPM,!GEP_CommNet,!Komplexity]
+* [RemoteTech.cfg] v1.0.0.0
+  * rename from [jx2_RemoteTech.cfg]
+  * add :NEEDS[RemoteTech]
+
+### Config
+
+* Create
+  * [JX2Antenna.cfg] v1.0.0.0
+    * updates tags with localizations
+
+### Status 2.0.99.0
+
+* Issues
+  * closes #5 - JX2Antenna (JX2) 2.0.99.0-adoption `<Fine Tuned>`
+  * closes #6 - 2.0.99.0 Verify Legal Mumbo Jumbo
+  * closes #7 - 2.0.99.0 Update Documentation
+  * closes #8 - 2.0.99.0 Update Social Media
+
+---
+
 ## Version 2.0.5.0-release
 
 * 2018-05-10
