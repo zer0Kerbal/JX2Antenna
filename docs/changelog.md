@@ -22,7 +22,7 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/1107)                                 |
 | ckan       | JX2Antenna                                                        |
 
-## Version 2.0.99.0-adoption
+## Version 2.0.99.0-adoption - `<Fine Tuned>` edition
 
 * 21 Jul 2022
 * Released for Kerbal Space Program 1.12.3
@@ -45,10 +45,30 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Parts
 
-ModuleCargoPart
-[DRAG_CUBES]
+* Add
+  * [DRAG_CUBES]
+  * @thumbs
+  * [PhysicsSignificance] = 1
 
-	PhysicsSignificance = 1
+#### ModuleCargoPart
+
+| JX2Antenna |         |       | π╥     | πr²h       | 1000L = m3 |
+| ---------- | ------- | ----- | ------ | ---------- | ---------- |
+|            | dia (m) | r (m) | h (m)  | volume m^3 | *1000      |
+| ju1MDA     | 1.25    | 0.625 | 2.5900 | 3.17841    | 3178.41    |
+| jw1MDA     | 1.25    | 0.625 | 1.0900 | 1.33763    | 1337.64    |
+| jx2LDA     | 2.5     | 1.25  | 4.1500 | 20.37126   | 20371.27   |
+
+* [ju1MDA.cfg]
+  * Dimensions = x: 1.25, y: 2.59, z: 1.28
+  * [ModuleCargoPart] = 4500
+* [jw1MDA.cfg]
+  * Dimensions = x: 1.24, y: 1.09, z: 1.29
+  * [ModuleCargoPart] = 1400
+* [jx2LDA.cfg]
+  * Dimensions = x: 2.48, y: 4.15, z: 2.48
+  * [ModuleCargoPart] = 22000
+* closes #46 - Update Parts
 
 ### docs/
 
@@ -61,7 +81,6 @@ ModuleCargoPart
   * [Marketing.md] v1.0.0.0
   * [Notices.md] v1.0.0.0
   * [Part-Catelog.md] v1.1.4.0
-  * [Why-not.md]
   * [Why.md] v1.1.0.0
   * [_config.yml]
 
@@ -105,7 +124,7 @@ ModuleCargoPart
 ### Status 2.0.99.0
 
 * Issues
-  * closes #5 - JX2Antenna (JX2) 2.0.99.0-adoption `<EDITION>`
+  * closes #5 - JX2Antenna (JX2) 2.0.99.0-adoption `<Fine Tuned>`
   * closes #6 - 2.0.99.0 Verify Legal Mumbo Jumbo
   * closes #7 - 2.0.99.0 Update Documentation
   * closes #8 - 2.0.99.0 Update Social Media
