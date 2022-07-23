@@ -23,8 +23,8 @@ href="https://zer0kerbal.github.io/JX2Antenna/"
 title="GitHub Pages"><img
 src="https://img.shields.io/badge/GitHub-Pages-white?style=plastic&amp;labelColor=9cf&amp;logoColor=181717&amp;logo=github/"
 title="GitHub IO" alt="Pages" /></a></p>
-<h1 id="version-20990-release---edition-edition">Version
-2.0.99.0-release - <code>&lt;EDITION&gt;</code> edition</h1>
+<h1 id="version-20990-release---fine-tuned-edition">Version
+2.0.99.0-release - <code>&lt;Fine Tuned&gt;</code> edition</h1>
 <ul>
 <li>21 Jul 2022</li>
 <li>Released for Kerbal Space Program 1.12.3</li>
@@ -32,7 +32,185 @@ title="GitHub IO" alt="Pages" /></a></p>
 <div style="border:0.5px solid Tomato; background-color: #bada55; color: #FF0000; text-align:center"><h4>
 <b>DO A CLEAN INSTALL:</br> DELETE EXISTING INSTALLATION THEN RE-INSTALL</b></h4><p>Download from <a href="https://www.curseforge.com/kerbal/ksp-mods/JX2Antenna/files">CurseForge</a></p></div>
 
-<h2 id="changes">Changes</h2>
+<h2 id="adoption">Adoption</h2>
+<h3 id="asset-updates">Asset Updates</h3>
+<ul>
+<li>create Assets/ folder</li>
+<li>convert from mesh to MODEL</li>
+<li>rename
+<ul>
+<li>models to unique names</li>
+<li>textures to unique names</li>
+</ul></li>
+<li>update
+<ul>
+<li>model pointers (.png et al to .dds)</li>
+<li>model texture pointers to new names</li>
+</ul></li>
+<li>relocate assets to Assets/</li>
+<li>eliminate
+<ul>
+<li>duplicate textures</li>
+<li>duplicate models</li>
+</ul></li>
+<li>relocate part.cfg to Parts/</li>
+</ul>
+<h3 id="parts">Parts</h3>
+<ul>
+<li>Add
+<ul>
+<li>[DRAG_CUBES]</li>
+<li>@thumbs</li>
+<li>[PhysicsSignificance] = 1</li>
+</ul></li>
+</ul>
+<h4 id="modulecargopart">ModuleCargoPart</h4>
+<table>
+<thead>
+<tr class="header">
+<th>JX2Antenna</th>
+<th></th>
+<th></th>
+<th>π╥</th>
+<th>πr²h</th>
+<th>1000L = m3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>dia (m)</td>
+<td>r (m)</td>
+<td>h (m)</td>
+<td>volume m^3</td>
+<td>*1000</td>
+</tr>
+<tr class="even">
+<td>ju1MDA</td>
+<td>1.25</td>
+<td>0.625</td>
+<td>2.5900</td>
+<td>3.17841</td>
+<td>3178.41</td>
+</tr>
+<tr class="odd">
+<td>jw1MDA</td>
+<td>1.25</td>
+<td>0.625</td>
+<td>1.0900</td>
+<td>1.33763</td>
+<td>1337.64</td>
+</tr>
+<tr class="even">
+<td>jx2LDA</td>
+<td>2.5</td>
+<td>1.25</td>
+<td>4.1500</td>
+<td>20.37126</td>
+<td>20371.27</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>[ju1MDA.cfg]
+<ul>
+<li>Dimensions = x: 1.25, y: 2.59, z: 1.28</li>
+<li>[ModuleCargoPart] = 4500</li>
+</ul></li>
+<li>[jw1MDA.cfg]
+<ul>
+<li>Dimensions = x: 1.24, y: 1.09, z: 1.29</li>
+<li>[ModuleCargoPart] = 1400</li>
+</ul></li>
+<li>[jx2LDA.cfg]
+<ul>
+<li>Dimensions = x: 2.48, y: 4.15, z: 2.48</li>
+<li>[ModuleCargoPart] = 22000</li>
+</ul></li>
+<li>closes #46 - Update Parts</li>
+</ul>
+<h3 id="docs">docs/</h3>
+<ul>
+<li>Add
+<ul>
+<li>[Attribution.md] v1.0.6.0</li>
+<li>[ManualInstallation.md] v1.1.7.0</li>
+<li>[404.md] v1.0.3.1</li>
+<li>[LegalMumboJumbo.md] v1.0.5.0</li>
+<li>[Localizations.md] v1.1.3.1</li>
+<li>[Marketing.md] v1.0.0.0</li>
+<li>[Notices.md] v1.0.0.0</li>
+<li>[Part-Catelog.md] v1.1.4.0</li>
+<li>[Why.md] v1.1.0.0</li>
+<li>[_config.yml]</li>
+</ul></li>
+</ul>
+<h3 id="documentation">documentation</h3>
+<ul>
+<li>[JX2Antenna.version]
+<ul>
+<li>remove [KSP_VERSION_MAX]</li>
+</ul></li>
+</ul>
+<h3 id="localization">Localization</h3>
+<ul>
+<li>Create
+<ul>
+<li>Localization/
+<ul>
+<li>&lt;en-us.cfg&gt;</li>
+<li>[readme.md] v2.1.2.0</li>
+<li>[quickstart.md] v1.0.1.1</li>
+</ul></li>
+</ul></li>
+<li>closes #10 - English &lt;us-en.cfg&gt;</li>
+<li>closes #27 - Part Localization</li>
+<li>updates #9 - Localization - Master</li>
+</ul>
+<h3 id="compatibility">Compatibility</h3>
+<ul>
+<li>[GalileosPlanetPack.cfg] v1.0.0.0
+<ul>
+<li>rename from [jx2_GPP.cfg]</li>
+<li>add :NEEDS[GPP]</li>
+</ul></li>
+<li>[IndicatorLights.cfg] v1.0.0.0
+<ul>
+<li>rename from [jx2_IndicatorLights.cfg]</li>
+<li>add :NEEDS[IndicatorLights]</li>
+</ul></li>
+<li>[OuterPlanetsMod.cfg] v1.0.0.0
+<ul>
+<li>rename from [jx2_OPM.cfg]</li>
+<li>add :NEEDS[OPM,!GEP_CommNet,!Komplexity]</li>
+</ul></li>
+<li>[RemoteTech.cfg] v1.0.0.0
+<ul>
+<li>rename from [jx2_RemoteTech.cfg]</li>
+<li>add :NEEDS[RemoteTech]</li>
+</ul></li>
+</ul>
+<h3 id="config">Config</h3>
+<ul>
+<li>Create
+<ul>
+<li>[JX2Antenna.cfg] v1.0.0.0
+<ul>
+<li>updates tags with localizations</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="status-20990">Status 2.0.99.0</h3>
+<ul>
+<li>Issues
+<ul>
+<li>closes #5 - JX2Antenna (JX2) 2.0.99.0-adoption
+<code>&lt;Fine Tuned&gt;</code></li>
+<li>closes #6 - 2.0.99.0 Verify Legal Mumbo Jumbo</li>
+<li>closes #7 - 2.0.99.0 Update Documentation</li>
+<li>closes #8 - 2.0.99.0 Update Social Media</li>
+</ul></li>
+</ul>
 <hr />
 <h2 id="see-more">See More</h2>
 <ul>
@@ -51,7 +229,7 @@ title="Issue Tracker">Known Issues</a></li>
 href="https://zer0kerbal.github.io/JX2Antenna/"
 title="GitHub Pages">Pages</a></li>
 </ul>
-<h2 id="localization">Localization</h2>
+<h2 id="localization-1">Localization</h2>
 <blockquote>
 <ul>
 <li><img
